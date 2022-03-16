@@ -237,6 +237,7 @@
 
 .zoom-neg-08{
 	zoom: 0.8;
+	overflow: hidden;
 }
 
 .ptf-service-box__title{
@@ -246,4 +247,97 @@
 .ptf-partner-box__image{
 	-webkit-filter: none;
 	filter: none;
+}
+
+.lh-1p1{
+	font-weight: 600;
+}
+
+.huron-digital-wrapper{
+	position: relative;
+}
+
+.huron-digital-wrapper > div:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 150%;
+    width: 10px;
+    background-color: #fb5037;
+    
+}
+
+.huron-digital-wrapper img, .huron-digital-wrapper p {
+    padding-left: 28px;
+}
+
+.ptf-is--home-studio section:first-of-type{
+	height: calc(100vh - 80px);
+}
+
+span.float-right {
+    float:right;
+    display: inline-block;
+    padding-top: 18px;
+}
+
+.huron-digital-wrapper > div{
+	float: right;
+	max-width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+	.huron-digital-wrapper > div{
+		max-width: 100%;
+	}	
+
+	.huron-digital-wrapper{
+		margin-top: 100px;
+	}
+}
+
+.non-bold{
+	font-weight: normal !important;
+}
+
+.dark-bg{
+	background-color: #000;
+}
+
+.dark-bg .h1.large-heading, .dark-bg h1.large-heading, .dark-bg p{
+	color: #fff;
+}
+
+.ptf-service-box{
+	border-top: 2px solid hsl(0deg 0% 100%);
+}
+
+.ptf-service-box__title{
+	color: #fff;
+}
+
+.ptf-service-box:hover .ptf-service-box__title, .ptf-service-box:hover p{
+	color: #000;
+}
+
+.lnil{
+	color: #fa4529;
+}
+
+.ptf-rewards-item__logo{
+	max-width: 100%;
+}
+
+.ptf-rewards-item__logo img{
+	max-width: 100px;
+}
+
+.lh-1p2{
+	margin: 0;
+    line-height: 68px;
+}
+
+.huron-digital-wrapper p i{
+	font-weight: 600;
+    color: #fb5037;
 }
