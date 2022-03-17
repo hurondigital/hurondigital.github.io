@@ -337,6 +337,10 @@ span.float-right {
     line-height: 68px;
 }
 
+.whitesmoke-bg{
+	background: hsl(0, 0%, 97%);
+}
+
 /*.huron-digital-wrapper p i{
 	font-weight: 600;
     color: #fb5037;
